@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile</title>
+</head>
+<body>
+              <!-- Nav menu-->
+     <ul id="nav-meny">
+          <li><a href="http://127.0.0.1:5500/Hacked/start.html">Start</a></li>
+          <li><a href="http://127.0.0.1:5500/Hacked/profile.html">Profile</a></li>
+          <li><a href="http://127.0.0.1:5500/Hacked/hiscore.html">Hiscore</a></li>
+          <li class="steal"><a href="#">Steal</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="http://127.0.0.1:5500/Hacked/Index.html">Logout</a></li>
+            </li>
+        </ul>
+        <!-- My footer with text at the bottom of the site  -->
+        <footer>
+    <p>Level: 100</p>
+    <p>Health: 100%</p>
+    <p>Money: 1.000.000</p>
+    <p>Weapon: None</p>
+    <p>Armor: None</p>
+    <p>Garage: None</p>
+</footer>
+
+<!-- Picture preview  -->
+<img id="preview" src="hdcar.png" alt="hdcar" usemap="#hdmap">
+
+<!-- Button to choose picture -->
+<input type="file" id="picture" accept="image/*" style="display:none;">
+<label for="picture" class="picture-upload" usemap="#hdmap">Choose picture</label>
+
+<!-- Script so i can choose a picture  -->
+<script>
+  const input = document.getElementById("picture");
+  const preview = document.getElementById("preview");
+
+  input.addEventListener("change", function() {
+    const file = this.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        preview.src = e.target.result;
+        preview.style.display = "block";
+      }
+      reader.readAsDataURL(file);
+    }
+  });
+</script>
+  
+
+
+</body>
+</html>

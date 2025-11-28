@@ -1,0 +1,116 @@
+/* background picture  */
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family:  Poppins;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  place-items: center;
+  overflow: hidden;
+  background-image: url("images/hacked.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+/* for moving the container */
+.container{
+  width: 400px;
+  height: 300px;
+  padding: 70px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-top: 15px;
+  position: absolute;
+  left: 50%;
+  margin-bottom: -600px;
+}
+
+/* move labels to the left  */
+.inputs {
+  margin-top: 15px;
+  text-align: left;
+}
+/* for make buttons looking better  */
+button, .register{
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 0;
+
+
+}
+/* For input of Email and Password  */
+input {
+  padding: 10px;
+  padding-left: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px gray,
+  inset -6px -6px 6px black;
+}
+/* Email and password labels  */
+label {
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+/* Login button  */
+button{
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  height: 35px;
+  margin-top: 415px;
+  margin-left: 80px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  width: 100px;
+  }
+
+/* the register button  */
+.register{
+  background-color: transparent;
+  border-radius: 10px;
+  color:white;
+  padding: 2px 2px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+  height: 35px;
+  margin-top: 415px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  width: 100px;
+  margin-left: 230px;
+  }
+
+/* Colour of the caret  */
+input {
+  caret-color: black;
+}

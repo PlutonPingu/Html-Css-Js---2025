@@ -1,0 +1,82 @@
+/* background image  */
+body{
+    background-image: url("images/Sidbakgrund.png");
+     display: flex;
+    flex-direction: column;
+ } 
+/* nav menu  */
+.nav-meny{
+  margin: 0;
+  width: 0px;
+}
+
+ul {
+    width: 1920px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 5px;
+    } 
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        padding: 6px 18px 6px 18px;
+    }
+      /* header  */
+     h1{ color: white;
+        text-align: center;
+        margin: 20px auto 20px auto;
+        font-weight: normal;
+        margin-bottom: 20px;
+    } 
+
+    /* text settings  */
+ p { 
+        text-align: center;
+        width: 600px;
+        margin: 20px auto 20px auto;
+        font-weight: normal;
+        color: white;
+}
+
+/* hover settings for steal chooice  */
+ #nav-meny li.steal a:hover {
+  color: red;
+}
+/* the table  */
+    table {
+        color: gray;
+            width: 1200px; 
+            margin: 0 auto;
+            text-align: center;
+        }
+        th {
+            border-top: 1px solid #999;
+            border-bottom: 2px solid #111111;
+           
+        }
+        tr:nth-child(odd) {
+            background-color: transparent;
+            color: rgb(136, 83, 14);
+          
+        }
+        tr:hover {
+            background-color: transparent;
+            color: white;
+           
+        }
+        td, th {
+            padding: 10px 0;
+        }
+        th{
+            color: white;
+        }
+      

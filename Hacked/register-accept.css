@@ -1,0 +1,31 @@
+/* background image  */
+body{
+    background-image: url("images/Sidbakgrund.png");
+    text-align: center;
+    color: white;
+    
+/* the button on the site */
+ } 
+ button {
+  padding: 10px;
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+
+
+ }
+/* text settings */
+ p{
+   font-size: 50px;
+   font-family: poppins;
+   font-style: bold, italic;
+ }
+ /* the hover  */
+ button:hover {
+  background: gray;
+}
